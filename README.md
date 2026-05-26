@@ -9,8 +9,8 @@
 |---|----------|-------------|-------|---------------|
 | 1 | **Планирование проекта** | [Kaiten — доска задач](https://motjm.kaiten.ru/p/b8526ffd-3ae0-4ca7-a980-9e215ad4fdf5) | — | Канбан-доска с задачами и статусами |
 | 2 | **Концепция проекта** | [XMind — майндмэп](https://app.xmind.com/share/WY2Y899h) *(пароль: oreluni)* | [Превью](docs/ai_student_assistant.png) | Функциональность, пользователи, монетизация, стек |
-| 5 | **Лаба 3 — Уравнения теплопроводности** | [Overleaf](https://ru.overleaf.com/9698878493xjvxsggkprgk#253ccb) | [lab3.pdf](docs/lab3.pdf) | Параболический тип, краевые задачи |
-| 4 | **Лаба 2 — Граф переходов + SAT** | [Overleaf (статья)](https://ru.overleaf.com/read/nmspsvshqjsf#9cad61) | [lab2.pdf](docs/lab2.pdf) | Построение графа переходов последовательностной схемы |
+| 5 | **Уравнения теплопроводности** | [Overleaf](https://ru.overleaf.com/9698878493xjvxsggkprgk#253ccb) | [lab3.pdf](docs/lab3.pdf) | Параболический тип, краевые задачи |
+| 4 | **Граф переходов + SAT** | [Overleaf (статья)](https://ru.overleaf.com/read/nmspsvshqjsf#9cad61) | [lab2.pdf](docs/lab2.pdf) | Построение графа переходов последовательностной схемы |
 | 5 | **Презентация — История ФМФ ОГУ** | [Overleaf (Beamer)](https://ru.overleaf.com/read/mjvpddtpvfgr#c686c9) | [lab1.pdf](docs/lab1.pdf) | Презентация: 1931 г. — наши дни |
 | 6 | **Визуализация данных** | Tableau | [Book1.twb](tableau/Book1.twb) | Открыть в Tableau Desktop |
 
