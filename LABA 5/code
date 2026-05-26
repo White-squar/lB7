@@ -1,0 +1,261 @@
+\documentclass[12pt, aspectratio=169]{beamer}
+
+% ─── Кодировка и язык ───────────────────────────────────────────────────────
+\usepackage[utf8]{inputenc}
+\usepackage[T2A]{fontenc}
+\usepackage[russian]{babel}
+
+% ─── Графика и таблицы ──────────────────────────────────────────────────────
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{array}
+
+% ─── Тема и цветовая схема ──────────────────────────────────────────────────
+\usetheme{CambridgeUS}
+\usecolortheme{whale}          % синий/белый
+
+% Дополнительная настройка фирменных цветов ОГУ
+\definecolor{oguBlue}{RGB}{26, 60, 120}
+\definecolor{oguAccent}{RGB}{52, 152, 219}
+
+\setbeamercolor{frametitle}{bg=oguBlue, fg=white}
+\setbeamercolor{title}{fg=oguBlue}
+\setbeamercolor{structure}{fg=oguBlue}
+\setbeamercolor{block title}{bg=oguBlue, fg=white}
+\setbeamercolor{block body}{bg=oguAccent!10}
+\setbeamercolor{itemize item}{fg=oguAccent}
+\setbeamercolor{itemize subitem}{fg=oguBlue}
+
+% Убираем навигационные символы (по желанию закомментируйте)
+\setbeamertemplate{navigation symbols}{}
+
+% Нумерация слайдов в подвале
+\setbeamertemplate{footline}[frame number]
+
+% ─── Метаданные презентации ─────────────────────────────────────────────────
+\title[История Физмата ОГУ]{История Физико-Математического\\Факультета ОГУ}
+\subtitle{От 1931 года до наших дней}
+\author{И.А.~Овчаренко}
+\institute[ОГУ]{Орловский государственный университет\\имени И.С.~Тургенева}
+\date{10 мая 2026}
+
+% ════════════════════════════════════════════════════════════════════════════
+\begin{document}
+
+% ─── Слайд 1: Титульный ─────────────────────────────────────────────────────
+\begin{frame}
+  \titlepage
+\end{frame}
+
+% ─── Слайд 2: Содержание ────────────────────────────────────────────────────
+\begin{frame}{Содержание}
+  \tableofcontents
+\end{frame}
+
+% ════════════════════════════════════════════════════════════════════════════
+\section{Истоки: 1931 год}
+
+% ─── Слайд 3: Основание ─────────────────────────────────────────────────────
+\begin{frame}{Истоки: 1931 год}
+
+  \begin{columns}[T]
+    % ── Левая колонка: текст ────────────────────────────────────────────────
+    \begin{column}{0.55\textwidth}
+      История факультета неразрывно связана с основанием
+      \textbf{Орловского индустриально-педагогического института}
+      5 августа 1931 года.
+
+      \bigskip
+      \begin{itemize}
+        \item Один из четырёх первых факультетов института.
+        \item Подготовка кадров для бурно развивающейся промышленности.
+        \item Научная база в здании бывшей Алексеевской гимназии.
+      \end{itemize}
+    \end{column}
+
+    % ── Правая колонка: фото ────────────────────────────────────────────────
+    \begin{column}{0.40\textwidth}
+      \begin{center}
+        \includegraphics[width=\linewidth, height=5cm, keepaspectratio]{images-4.jpeg}
+      \end{center}
+    \end{column}
+  \end{columns}
+
+\end{frame}
+
+% ════════════════════════════════════════════════════════════════════════════
+\section{Эволюция университета}
+
+% ─── Слайд 4: Эволюция названий ─────────────────────────────────────────────
+\begin{frame}{Эволюция университета}
+
+  \begin{block}{От института к опорному вузу}
+    Факультет прошёл путь от педагогического профиля\\
+    к классическому университетскому образованию.
+  \end{block}
+
+  \bigskip
+
+  \begin{columns}[T]
+    \begin{column}{0.22\textwidth}
+      \centering
+      \textbf{\textcolor{oguAccent}{1931}}\\[4pt]
+      Индустриально-педагогический институт
+    \end{column}
+    \begin{column}{0.02\textwidth}
+      \centering\large$\rightarrow$
+    \end{column}
+    \begin{column}{0.22\textwidth}
+      \centering
+      \textbf{\textcolor{oguAccent}{1932}}\\[4pt]
+      Орловский пед.\ институт (ОГПИ)
+    \end{column}
+    \begin{column}{0.02\textwidth}
+      \centering\large$\rightarrow$
+    \end{column}
+    \begin{column}{0.22\textwidth}
+      \centering
+      \textbf{\textcolor{oguAccent}{1996}}\\[4pt]
+      Орловский гос.\ университет (ОГУ)
+    \end{column}
+    \begin{column}{0.02\textwidth}
+      \centering\large$\rightarrow$
+    \end{column}
+    \begin{column}{0.22\textwidth}
+      \centering
+      \textbf{\textcolor{oguAccent}{2016}}\\[4pt]
+      Опорный вуз региона (ОГУ им.\ Тургенева)
+    \end{column}
+  \end{columns}
+
+\end{frame}
+
+% ════════════════════════════════════════════════════════════════════════════
+\section{Героические страницы (1941–1945)}
+
+% ─── Слайд 5: Годы войны ────────────────────────────────────────────────────
+\begin{frame}{Героические страницы (1941–1945)}
+
+  \begin{columns}[T]
+    % ── Левая колонка: фото ─────────────────────────────────────────────────
+    \begin{column}{0.40\textwidth}
+      \begin{center}
+        \includegraphics[width=\linewidth, height=5.5cm, keepaspectratio]{images-5.jpeg}
+      \end{center}
+    \end{column}
+
+    % ── Правая колонка: факты ───────────────────────────────────────────────
+    \begin{column}{0.55\textwidth}
+      В годы Великой Отечественной войны более \textbf{200 студентов
+      и преподавателей} ушли на фронт.
+
+      \bigskip
+      \begin{itemize}
+        \item \textbf{Эвакуация:} В 1941 году институт был эвакуирован
+              в г.~Бирск (Башкирия).
+        \item \textbf{Возвращение:} В 1944 году институт вернулся в Орёл
+              и возобновил работу.
+        \item \textbf{Декан:} П.Д.~Ерёмин погиб в боях в 1943 году.
+        \item \textbf{Герои:} В.А.~Булычев, Д.~Сорин и другие проявили
+              выдающееся мужество.
+      \end{itemize}
+    \end{column}
+  \end{columns}
+
+\end{frame}
+
+% ════════════════════════════════════════════════════════════════════════════
+\section{Ключевые вехи развития}
+
+% ─── Слайд 6: Таблица вех ───────────────────────────────────────────────────
+\begin{frame}{Ключевые вехи развития}
+
+  \begin{center}
+  \renewcommand{\arraystretch}{1.4}
+  \begin{tabular}{>{\bfseries\color{oguBlue}}c
+                  >{\raggedright\arraybackslash}p{5cm}
+                  >{\raggedright\arraybackslash}p{5.5cm}}
+    \toprule
+    \textbf{Год} & \textbf{Событие} & \textbf{Значение} \\
+    \midrule
+    1931 & Основание физмата
+         & Начало высшего физ-мат образования в Орле \\
+    1940 & Первые «Учёные записки»
+         & Запуск серьёзной научной издательской деятельности \\
+    1994 & Статус Педагогического университета
+         & Признание высокого уровня подготовки кадров \\
+    2016 & Слияние и статус опорного вуза
+         & Новая эра научных исследований и инноваций \\
+    \bottomrule
+  \end{tabular}
+  \end{center}
+
+\end{frame}
+
+% ════════════════════════════════════════════════════════════════════════════
+\section{Современная структура факультета}
+
+% ─── Слайд 7: Современная структура ─────────────────────────────────────────
+\begin{frame}{Современная структура факультета}
+
+  \begin{columns}[T]
+
+    \begin{column}{0.30\textwidth}
+      \begin{block}{}
+        Исследования в области теоретической физики и нанотехнологий.
+      \end{block}
+    \end{column}
+
+    \begin{column}{0.30\textwidth}
+      \begin{block}{}
+        Фундаментальные основы анализа, алгебры и прикладного моделирования.
+      \end{block}
+    \end{column}
+
+    \begin{column}{0.30\textwidth}
+      \begin{block}{}
+        Подготовка IT-специалистов, программистов и аналитиков данных.
+      \end{block}
+    \end{column}
+
+  \end{columns}
+
+  \bigskip
+  \begin{center}
+    \includegraphics[width=0.6\linewidth, height=2.5cm, keepaspectratio]{images-6.jpeg}
+  \end{center}
+
+\end{frame}
+
+% ─── Слайд 8: Заключение ────────────────────────────────────────────────────
+\begin{frame}{Традиции и будущее}
+
+  \begin{center}
+    \Large
+    \textbf{\textcolor{oguBlue}{Физико-математический факультет ОГУ~---}}\\[6pt]
+    это сочетание классической школы\\
+    и передовых технологий,\\
+    готовящее лидеров науки завтрашнего дня.
+  \end{center}
+
+  \vfill
+  \begin{center}
+    \textcolor{oguAccent}{\rule{0.3\textwidth}{1.5pt}}\\[8pt]
+    \small\texttt{phys-math.ru/history/start}
+  \end{center}
+
+\end{frame}
+
+% ─── Слайд 9: Вопросы ───────────────────────────────────────────────────────
+\begin{frame}
+
+  \begin{center}
+    \vspace{1.5cm}
+    {\Huge \textbf{\textcolor{oguBlue}{?}}}\\[12pt]
+    {\Large \textbf{Вопросы}}\\[8pt]
+    {\large \textcolor{gray}{Благодарим за внимание!}}
+  \end{center}
+
+\end{frame}
+
+\end{document}
